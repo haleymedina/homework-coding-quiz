@@ -1,4 +1,4 @@
-// list the all the questions, possible answers, and correct answer
+// list the all the questions, possible answers, and correct answer for quiz
 var quiz = document.querySelector("#quizContent")
 var questions = [ 
     {
@@ -31,3 +31,13 @@ var questions = [
         correctAnswer: "script src",
     },
 ]
+// use a function to start the quiz:
+// make it so the quiz questions display one at a time in order from 0-4
+// create a timer that starts at 30 sec and counts down by seconds
+// push the start button to start the timer 
+// have the user answer questions 0-4 as timer counts down, all whikle keeping track of score
+// when timer reaches 0, the quiz is paused and produces something that says the quiz is over
+// return how many answers the user got right out of 0-4
+// allow user to input their initals next to score in a form
+// save the score in local storage
+// allow user to play again and compare score
